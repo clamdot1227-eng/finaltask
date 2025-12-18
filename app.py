@@ -403,7 +403,7 @@ def ttchart():
     
     back.place(x=0, y=650)
 
-    need_del.extend([tit, y_lb, y_entry, m_lb, m_entry, m_btn, exp_a, exp_b, inc_a, inc_b, 
+    need_del.extend(  [tit, y_lb, y_entry, m_lb, m_entry, m_btn, exp_a, exp_b, inc_a, inc_b, 
                      eat, cloth, live, go, fun, otherout, pkmy, slr, luc, otherin, back,
                      chart_exp, chart_inc])
 

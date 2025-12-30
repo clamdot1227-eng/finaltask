@@ -16,3 +16,12 @@
 本系統使用了 `Matplotlib` 進行視覺化圖表繪製，請開啟終端機 (CMD 或 PowerShell) 並執行以下指令：
 ```bash
 pip install matplotlib
+```
+### 4. 開啟方式
+點擊app.py後右鍵，將其用Python開啟
+若是在Visual Code中開啟，請打開整個資料夾才能順利執行
+
+
+***注意事項***
+不要亂改程式碼😀
+助教撈撈☺️

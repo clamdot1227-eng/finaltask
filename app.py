@@ -15,7 +15,7 @@ plt.rcParams['axes.unicode_minus'] = False
 app = tk.Tk()
 app.title('期末作業-個人財務管理系統')
 app.geometry('500x750') 
-app.resizable(True, True)
+app.resizable(False, False)
 bkg = tk.Canvas(app, bg='purple', width=500, height=750).pack()
 
 need_del = [] 
@@ -403,7 +403,7 @@ def ttchart():
     
     back.place(x=0, y=650)
 
-    need_del.extend(  [tit, y_lb, y_entry, m_lb, m_entry, m_btn, exp_a, exp_b, inc_a, inc_b, 
+    need_del.extend([tit, y_lb, y_entry, m_lb, m_entry, m_btn, exp_a, exp_b, inc_a, inc_b, 
                      eat, cloth, live, go, fun, otherout, pkmy, slr, luc, otherin, back,
                      chart_exp, chart_inc])
 
